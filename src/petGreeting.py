@@ -1,27 +1,25 @@
 """
-hello.py
+petGreeting.py
 ====================================
-This is an example file with correct docstring examples
+This program says hello to people by inputting their name.
 
-| Author: Seth McNeill
-| Date: 2025 September 07
+| Author: Eein McKinley
+| Date: 2026 April 09
 """
 
 class SayHello:
     """
-    Base class example
-    
-    This class provides an example to work from
+    This is the way to say hello to the pet.
     
     Parameters
     ----------
     name : str
-        The user's name
+        The pet's name
     
     Attributes
     ----------
     name : str
-        The user's name
+        The owner's name
         
     Examples
     --------
@@ -37,7 +35,7 @@ class SayHello:
         Parameters
         ----------
         name : str
-            The user's name
+            The pet's name
         """
         self.name = name
    
@@ -52,16 +50,16 @@ class SayHello:
             
         Returns
         -------
-        int
-            An integer as an example of returning a value
+        str 
+            The string that says hello to the pet.
         """
-        print(f'Hello {self.name}{extraText}')
-        return len(self.name)
+
+        return f'Hello {self.name}{extraText}'
 
 
 if __name__ == '__main__':
     """Runs if file called as script as opposed to being imported as a library
     """
-    bob = SayHello('Bob')
+    bob = SayHello('Fido')
     bobLen = bob.greet(', welcome!')
     print(bobLen)
