@@ -1,7 +1,7 @@
 """
 petGreeting.py
 ====================================
-This program says hello to people by inputting their name.
+This program says hello to pets by inputting their name.
 
 | Author: Eein McKinley
 | Date: 2026 April 09
